@@ -49,6 +49,9 @@ same endpoint is shared across all commands).
 * `/join-private <channel> Join a private channel.`
 * `/list-private [filter] List private channels.`
 
+#### Customization
+If you'd like to collect other information to show in the invite, you can! The attachments in `lib/buttons/invite/signup-message.js` correspond to the `name` of fields in your form.
+
 ### Other setup steps
 
 Visit `https://<appname>.herokuapp.com/install` and click the "Add to Slack" button.
